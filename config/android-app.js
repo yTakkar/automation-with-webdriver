@@ -1,10 +1,11 @@
 const sharedConfig = require('./shared');
+const { resolvePath } = require('../helpers');
 
 exports.config = {
   ...sharedConfig,
+  specs: ['./tests/android-app/*.js'],
   path: '/wd/hub',
   port: 4723,
-  specs: ['./tests/android-browser/*.js'],
   capabilities: [
     {
       automationName: 'UiAutomator2',
@@ -13,6 +14,9 @@ exports.config = {
       platformVersion: '9',
       maxInstances: 1,
       browserName: 'chrome',
+      autoWebview: true,
+      app: resolvePath('apps/sangam.apk'),
+      noReset: true,
     },
   ],
 };

@@ -1,10 +1,12 @@
-const URLS = {
-  LOGIN: 'https://marathi.sangam.com/login',
-  MATCHES: 'https://marathi.sangam.com/profiles/unviewed-matches',
-  INTERACTION: 'https://marathi.sangam.com/interaction',
-  PREVIEW_PROFILE: 'https://marathi.sangam.com/preview-profile',
+const { join } = require('path');
+
+const BASE_URL = 'https://marathi.sangam.com';
+
+exports.URLS = {
+  LOGIN: `${BASE_URL}/login`,
+  MATCHES: `${BASE_URL}/profiles/unviewed-matches`,
+  INTERACTION: `${BASE_URL}/interaction`,
+  PREVIEW_PROFILE: `${BASE_URL}/preview-profile`,
 };
 
-module.exports = {
-  URLS,
-};
+exports.resolvePath = path => join(process.cwd(), path);

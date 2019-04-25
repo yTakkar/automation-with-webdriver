@@ -1738,6 +1738,22 @@ appium-chromedriver@^4.8.0:
     source-map-support "^0.5.5"
     teen_process "^1.3.1"
 
+appium-doctor@^1.9.0:
+  version "1.9.0"
+  resolved "https://registry.yarnpkg.com/appium-doctor/-/appium-doctor-1.9.0.tgz#ab849ff6fd111d8727e27b313484ae77bf7abcb9"
+  integrity sha512-j9z/VR4dxRMqF0Y+48MX/VHdS8YLp5o9EcHwU2Tu9YO8/pV5MotavHgwvL139VO8S2CGIIBv3e/B6PJrmV1TSw==
+  dependencies:
+    "@babel/runtime" "^7.0.0"
+    appium-support "^2.5.0"
+    authorize-ios "^1.0.3"
+    bluebird "^3.5.1"
+    colors "^1.1.2"
+    inquirer "^6.1.0"
+    lodash "^4.17.10"
+    source-map-support "^0.5.6"
+    teen_process "^1.3.1"
+    yargs "^12.0.1"
+
 appium-espresso-driver@^1.0.0:
   version "1.11.0"
   resolved "https://registry.yarnpkg.com/appium-espresso-driver/-/appium-espresso-driver-1.11.0.tgz#bafcb3a51eb18658bcc8768298084a4ccff87678"
@@ -2035,7 +2051,7 @@ appium-windows-driver@1.x:
     teen_process "^1.7.0"
     yargs "^12.0.1"
 
-appium-xcode@^3.1.0, appium-xcode@^3.2.0:
+appium-xcode@^3.0.0, appium-xcode@^3.1.0, appium-xcode@^3.2.0:
   version "3.7.2"
   resolved "https://registry.yarnpkg.com/appium-xcode/-/appium-xcode-3.7.2.tgz#f9058ecb034148b7558e636dcb6f82b24e4b0069"
   integrity sha512-pcWGR2LYR7yoeMM6Aphm4cM5uMFCCEO7nBQ24963pEer3UO2eatb7+wfRhRdTAKEk4s/mOorxoFzScWbp7VrYQ==
@@ -2315,6 +2331,20 @@ atob@^2.1.1:
   version "2.1.2"
   resolved "https://registry.yarnpkg.com/atob/-/atob-2.1.2.tgz#6d9517eb9e030d2436666651e86bd9f6f13533c9"
   integrity sha512-Wm6ukoaOGJi/73p/cl2GvLjTI5JM1k/O14isD73YML8StrH/7/lRFgmg8nICZgD3bZZvjwCGxtMOD3wWNAu8cg==
+
+authorize-ios@^1.0.3:
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/authorize-ios/-/authorize-ios-1.2.1.tgz#ccddd488d4916047d153c23ff2b4e2a169d11e8d"
+  integrity sha512-zLJuP/bmxTiPssI7FVyHy8kOu+vY2YHx7jCp/8eDJLOCML2zAXlA0io4nzcQNmgU8QeFJ9clV5FbFtMGa9kRvA==
+  dependencies:
+    "@babel/runtime" "^7.0.0"
+    appium-support "^2.5.0"
+    appium-xcode "^3.0.0"
+    bluebird "^3.5.1"
+    glob "^7.1.2"
+    lodash "^4.17.10"
+    source-map-support "^0.5.6"
+    teen_process "^1.0.0"
 
 aws-sign2@~0.7.0:
   version "0.7.0"
@@ -4367,7 +4397,7 @@ ini@~1.3.0:
   resolved "https://registry.yarnpkg.com/ini/-/ini-1.3.5.tgz#eee25f56db1c9ec6085e0c22778083f596abf927"
   integrity sha512-RZY5huIKCMRWDUqZlEi72f/lmXKMvuszcMBduliQ3nnWbx9X/ZBQO7DijMEYS9EhHBb2qacRUMtC7svLwe0lcw==
 
-inquirer@^6.2.1, inquirer@^6.2.2:
+inquirer@^6.1.0, inquirer@^6.2.1, inquirer@^6.2.2:
   version "6.3.1"
   resolved "https://registry.yarnpkg.com/inquirer/-/inquirer-6.3.1.tgz#7a413b5e7950811013a3db491c61d1f3b776e8e7"
   integrity sha512-MmL624rfkFt4TG9y/Jvmt8vdmOo836U7Y0Hxr2aFk3RelZEGX4Igk0KabWrcaaZaTv9uzglOqWh1Vly+FAWAXA==
@@ -7649,7 +7679,7 @@ tasklist@^3.1.0:
     pify "^2.2.0"
     sec "^1.0.0"
 
-teen_process@1.x, teen_process@^1.11.0, teen_process@^1.14.0, teen_process@^1.3.0, teen_process@^1.3.1, teen_process@^1.5.1, teen_process@^1.6.0, teen_process@^1.7.0, teen_process@^1.7.1, teen_process@^1.9.0:
+teen_process@1.x, teen_process@^1.0.0, teen_process@^1.11.0, teen_process@^1.14.0, teen_process@^1.3.0, teen_process@^1.3.1, teen_process@^1.5.1, teen_process@^1.6.0, teen_process@^1.7.0, teen_process@^1.7.1, teen_process@^1.9.0:
   version "1.14.1"
   resolved "https://registry.yarnpkg.com/teen_process/-/teen_process-1.14.1.tgz#4a7b60ef75a0d74f77361294024f96ba10c3360e"
   integrity sha512-hTPUJ3V8Hrz5esx50g7A3bPDKQGHJy2eX5F5i5KjLmSvA4RDODIlDhfVWCCawurz6QX1HF4ZzFySbzUcH0fTTA==

@@ -1,5 +1,5 @@
-const autoLogin = require('../helpers/autoLogin');
-const { URLS } = require('../helpers');
+const autoLogin = require('../../helpers/autoLogin');
+const { URLS } = require('../../helpers');
 
 describe('Sangam.com Matches Page', () => {
   it('should login', async () => {

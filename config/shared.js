@@ -1,3 +1,5 @@
+const { resolvePath } = require('../helpers')
+
 const config = {
   //
   // ====================
@@ -91,6 +93,15 @@ const config = {
   // your test setup with almost no effort. Unlike plugins, they don't add new
   // commands. Instead, they hook themselves up into the test process.
   services: ['appium'],
+  appium: {
+    args: {
+      address: '127.0.0.1',
+      commandTimeout: '7200',
+      sessionOverride: true,
+      debugLogSpacing: true,
+      chromedriverExecutable: resolvePath('chromedriver'),
+    },
+  },
   // Framework you want to run your specs with.
   // The following are supported: Mocha, Jasmine, and Cucumber
   // see also: https://webdriver.io/docs/frameworks.html

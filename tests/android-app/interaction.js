@@ -1,5 +1,5 @@
-const autoLogin = require('../helpers/autoLogin');
-const { URLS } = require('../helpers');
+const autoLogin = require('../../helpers/autoLogin');
+const { URLS } = require('../../helpers');
 
 describe('Interaction Page', async () => {
   it('should login', async () => {
