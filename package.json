@@ -7,9 +7,13 @@
   "version": "1.0.0",
   "main": "test.js",
   "scripts": {
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
     "driver:chrome": "./chromedriver",
     "driver:firefox": "./geckodriver --port 9515",
-    "test:browser": "node node_modules/.bin/wdio ./config/shared.js"
+    "test": "node node_modules/.bin/wdio",
+    "test:browser": "yarn test ./config/browser.js",
+    "test:android-browser": "yarn test ./config/android-browser.js"
   },
   "keywords": [],
   "author": "",
@@ -29,7 +33,12 @@
     "@wdio/mocha-framework": "^5.7.14",
     "@wdio/spec-reporter": "^5.7.13",
     "@wdio/sync": "^5.7.13",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.16.0",
+    "eslint-config-prettier": "^4.1.0",
+    "eslint-plugin-prettier": "^3.0.1",
     "jest": "^24.7.1",
+    "prettier": "^1.17.0",
     "wdio-appium-service": "^0.2.3"
   }
 }

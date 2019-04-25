@@ -1,7 +1,4 @@
-exports.config = {
-  path: '/',
-  port: 9515,
-
+const config = {
   //
   // ====================
   // Runner Configuration
@@ -19,9 +16,7 @@ exports.config = {
   // NPM script (see https://docs.npmjs.com/cli/run-script) then the current working
   // directory is where your package.json resides, so `wdio` will be called from there.
   //
-  specs: [
-    './tests/browser/*.js'
-  ],
+  specs: ['./tests/app.js'],
   // Patterns to exclude.
   exclude: [
     // 'path/to/excluded/files'
@@ -48,18 +43,6 @@ exports.config = {
   // Sauce Labs platform configurator - a great tool to configure your capabilities:
   // https://docs.saucelabs.com/reference/platforms-configurator
   //
-  capabilities: [{
-    // maxInstances can get overwritten per capability. So if you have an in-house Selenium
-    // grid with only 5 firefox instances available you can make sure that not more than
-    // 5 instances get started at a time.
-    maxInstances: 5,
-    //
-    browserName: 'chrome',
-    // If outputDir is provided WebdriverIO can capture driver session logs
-    // it is possible to configure which logTypes to include/exclude.
-    // excludeDriverLogs: ['*'], // pass '*' to exclude all driver session logs
-    // excludeDriverLogs: ['bugreport', 'server'],
-  }],
   //
   // ===================
   // Test Configurations
@@ -108,9 +91,6 @@ exports.config = {
   // your test setup with almost no effort. Unlike plugins, they don't add new
   // commands. Instead, they hook themselves up into the test process.
   services: ['appium'],
-  appium: {
-    args: {}
-  },
   // Framework you want to run your specs with.
   // The following are supported: Mocha, Jasmine, and Cucumber
   // see also: https://webdriver.io/docs/frameworks.html
@@ -133,8 +113,7 @@ exports.config = {
   mochaOpts: {
     ui: 'bdd',
     timeout: 60000,
-    ui: 'bdd',
-    compilers: ['js:@babel/register']
+    compilers: ['js:@babel/register'],
   },
   //
   // =====
@@ -255,4 +234,6 @@ exports.config = {
    */
   //onReload: function(oldSessionId, newSessionId) {
   //}
-}
+};
+
+module.exports = config;
