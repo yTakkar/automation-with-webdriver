@@ -1,0 +1,145 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "children" : [ {
+    "name" : "Sangam",
+    "children" : [ {
+      "name" : "com LoginPage",
+      "children" : [ {
+        "name" : "should login",
+        "uid" : "7ff1ac824ffa25ee",
+        "parentUid" : "bdaa222936e76637936cefdbc0c9cee9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1556282793594,
+          "stop" : 1556282802957,
+          "duration" : 9363
+        },
+        "flaky" : false,
+        "parameters" : [ "chrome" ]
+      }, {
+        "name" : "should goto home page",
+        "uid" : "2a42866aa4d21d09",
+        "parentUid" : "bdaa222936e76637936cefdbc0c9cee9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1556282802965,
+          "stop" : 1556282805792,
+          "duration" : 2827
+        },
+        "flaky" : false,
+        "parameters" : [ "chrome" ]
+      }, {
+        "name" : "should go to /edit-pp when editPP link is clicked",
+        "uid" : "edea5095f0ae0b37",
+        "parentUid" : "bdaa222936e76637936cefdbc0c9cee9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1556282805793,
+          "stop" : 1556282807224,
+          "duration" : 1431
+        },
+        "flaky" : false,
+        "parameters" : [ "chrome" ]
+      }, {
+        "name" : "should goto /preview-profile when editBiodata link is clicked",
+        "uid" : "39ca6c04fbc6e357",
+        "parentUid" : "bdaa222936e76637936cefdbc0c9cee9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1556282807225,
+          "stop" : 1556282808852,
+          "duration" : 1627
+        },
+        "flaky" : false,
+        "parameters" : [ "chrome" ]
+      }, {
+        "name" : "should goto /privacy-settings when profile img is clicked",
+        "uid" : "5a4365764dd94ee2",
+        "parentUid" : "bdaa222936e76637936cefdbc0c9cee9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1556282808853,
+          "stop" : 1556282809610,
+          "duration" : 757
+        },
+        "flaky" : false,
+        "parameters" : [ "chrome" ]
+      } ],
+      "uid" : "bdaa222936e76637936cefdbc0c9cee9"
+    }, {
+      "name" : "com Matches Page",
+      "children" : [ {
+        "name" : "should login",
+        "uid" : "8368dcfd260272f8",
+        "parentUid" : "eda294b17a5be56a93217c70a346cde6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1556282793755,
+          "stop" : 1556282803041,
+          "duration" : 9286
+        },
+        "flaky" : false,
+        "parameters" : [ "chrome" ]
+      }, {
+        "name" : "should open matches page",
+        "uid" : "399fe0aec0dffffd",
+        "parentUid" : "eda294b17a5be56a93217c70a346cde6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1556282803042,
+          "stop" : 1556282804383,
+          "duration" : 1341
+        },
+        "flaky" : false,
+        "parameters" : [ "chrome" ]
+      } ],
+      "uid" : "eda294b17a5be56a93217c70a346cde6"
+    } ],
+    "uid" : "120786781370c050608edb76c1ebfe8f"
+  }, {
+    "name" : "Edit Profile Page",
+    "children" : [ {
+      "name" : "should login",
+      "uid" : "46067a924288e8e9",
+      "parentUid" : "6e739a1af0890bb664258d4975e93002",
+      "status" : "passed",
+      "time" : {
+        "start" : 1556282882784,
+        "stop" : 1556282891170,
+        "duration" : 8386
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome-9" ]
+    }, {
+      "name" : "should edit Family Details",
+      "uid" : "cc9d71f354e8f7d3",
+      "parentUid" : "6e739a1af0890bb664258d4975e93002",
+      "status" : "passed",
+      "time" : {
+        "start" : 1556282891171,
+        "stop" : 1556282895314,
+        "duration" : 4143
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome-9" ]
+    } ],
+    "uid" : "6e739a1af0890bb664258d4975e93002"
+  }, {
+    "name" : "Interaction Page",
+    "children" : [ {
+      "name" : "should goto /home page",
+      "uid" : "7c15a96b721865cc",
+      "parentUid" : "16ac2ca7280bea5dd948f69b2e09aff6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1556283080517,
+        "stop" : 1556283081015,
+        "duration" : 498
+      },
+      "flaky" : false,
+      "parameters" : [ "Pixel 2 API 28-9" ]
+    } ],
+    "uid" : "16ac2ca7280bea5dd948f69b2e09aff6"
+  } ],
+  "name" : "packages"
+}

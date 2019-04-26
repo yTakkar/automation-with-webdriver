@@ -13,6 +13,5 @@ describe('Interaction Page', async () => {
 
   it('should goto /home page', async () => {
     await browser.url(URLS.HOME);
-    await browser.pause(10000);
   });
 });

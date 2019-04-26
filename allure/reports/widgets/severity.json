@@ -1,0 +1,101 @@
+[ {
+  "uid" : "edea5095f0ae0b37",
+  "name" : "should go to /edit-pp when editPP link is clicked",
+  "time" : {
+    "start" : 1556282805793,
+    "stop" : 1556282807224,
+    "duration" : 1431
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7c15a96b721865cc",
+  "name" : "should goto /home page",
+  "time" : {
+    "start" : 1556283080517,
+    "stop" : 1556283081015,
+    "duration" : 498
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "46067a924288e8e9",
+  "name" : "should login",
+  "time" : {
+    "start" : 1556282882784,
+    "stop" : 1556282891170,
+    "duration" : 8386
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7ff1ac824ffa25ee",
+  "name" : "should login",
+  "time" : {
+    "start" : 1556282793594,
+    "stop" : 1556282802957,
+    "duration" : 9363
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2a42866aa4d21d09",
+  "name" : "should goto home page",
+  "time" : {
+    "start" : 1556282802965,
+    "stop" : 1556282805792,
+    "duration" : 2827
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5a4365764dd94ee2",
+  "name" : "should goto /privacy-settings when profile img is clicked",
+  "time" : {
+    "start" : 1556282808853,
+    "stop" : 1556282809610,
+    "duration" : 757
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8368dcfd260272f8",
+  "name" : "should login",
+  "time" : {
+    "start" : 1556282793755,
+    "stop" : 1556282803041,
+    "duration" : 9286
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "39ca6c04fbc6e357",
+  "name" : "should goto /preview-profile when editBiodata link is clicked",
+  "time" : {
+    "start" : 1556282807225,
+    "stop" : 1556282808852,
+    "duration" : 1627
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cc9d71f354e8f7d3",
+  "name" : "should edit Family Details",
+  "time" : {
+    "start" : 1556282891171,
+    "stop" : 1556282895314,
+    "duration" : 4143
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "399fe0aec0dffffd",
+  "name" : "should open matches page",
+  "time" : {
+    "start" : 1556282803042,
+    "stop" : 1556282804383,
+    "duration" : 1341
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

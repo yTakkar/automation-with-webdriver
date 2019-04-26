@@ -10,7 +10,9 @@
     "test": "node node_modules/.bin/wdio",
     "test:browser": "yarn test config/browser.js",
     "test:android-browser": "yarn test config/android-browser.js",
-    "test:android-app": "yarn test config/android-app.js"
+    "test:android-app": "yarn test config/android-app.js",
+    "report:gen": "allure generate ./allure/results -o ./allure/reports --clean",
+    "report:open": "allure open ./allure/reports -p 9500"
   },
   "keywords": [],
   "author": "Faiyaz Shaikh <www.shtakkar@gmail.com>",
@@ -22,6 +24,7 @@
     "@babel/preset-env": "^7.4.3",
     "@babel/register": "^7.4.0",
     "@types/mocha": "^5.2.6",
+    "@wdio/allure-reporter": "^5.7.11",
     "@wdio/appium-service": "^5.7.9",
     "@wdio/cli": "^5.7.15",
     "@wdio/concise-reporter": "^5.7.8",

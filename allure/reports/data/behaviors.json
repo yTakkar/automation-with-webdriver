@@ -1,0 +1,125 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "children" : [ {
+    "name" : "should login",
+    "uid" : "7ff1ac824ffa25ee",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1556282793594,
+      "stop" : 1556282802957,
+      "duration" : 9363
+    },
+    "flaky" : false,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "should login",
+    "uid" : "8368dcfd260272f8",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1556282793755,
+      "stop" : 1556282803041,
+      "duration" : 9286
+    },
+    "flaky" : false,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "should goto home page",
+    "uid" : "2a42866aa4d21d09",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1556282802965,
+      "stop" : 1556282805792,
+      "duration" : 2827
+    },
+    "flaky" : false,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "should open matches page",
+    "uid" : "399fe0aec0dffffd",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1556282803042,
+      "stop" : 1556282804383,
+      "duration" : 1341
+    },
+    "flaky" : false,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "should go to /edit-pp when editPP link is clicked",
+    "uid" : "edea5095f0ae0b37",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1556282805793,
+      "stop" : 1556282807224,
+      "duration" : 1431
+    },
+    "flaky" : false,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "should goto /preview-profile when editBiodata link is clicked",
+    "uid" : "39ca6c04fbc6e357",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1556282807225,
+      "stop" : 1556282808852,
+      "duration" : 1627
+    },
+    "flaky" : false,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "should goto /privacy-settings when profile img is clicked",
+    "uid" : "5a4365764dd94ee2",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1556282808853,
+      "stop" : 1556282809610,
+      "duration" : 757
+    },
+    "flaky" : false,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "should login",
+    "uid" : "46067a924288e8e9",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1556282882784,
+      "stop" : 1556282891170,
+      "duration" : 8386
+    },
+    "flaky" : false,
+    "parameters" : [ "chrome-9" ]
+  }, {
+    "name" : "should edit Family Details",
+    "uid" : "cc9d71f354e8f7d3",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1556282891171,
+      "stop" : 1556282895314,
+      "duration" : 4143
+    },
+    "flaky" : false,
+    "parameters" : [ "chrome-9" ]
+  }, {
+    "name" : "should goto /home page",
+    "uid" : "7c15a96b721865cc",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1556283080517,
+      "stop" : 1556283081015,
+      "duration" : 498
+    },
+    "flaky" : false,
+    "parameters" : [ "Pixel 2 API 28-9" ]
+  } ],
+  "name" : "behaviors"
+}

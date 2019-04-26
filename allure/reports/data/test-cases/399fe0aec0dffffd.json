@@ -1,0 +1,65 @@
+{
+  "uid" : "399fe0aec0dffffd",
+  "name" : "should open matches page",
+  "fullName" : "Sangam.com Matches Page.should open matches page",
+  "historyId" : "dd67a6cc33402e4f8b4d03f26d88d4c4",
+  "time" : {
+    "start" : 1556282803042,
+    "stop" : 1556282804383,
+    "duration" : 1341
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "Sangam.com Matches Page"
+  }, {
+    "name" : "testClass",
+    "value" : "Sangam.com Matches Page"
+  }, {
+    "name" : "testMethod",
+    "value" : "should open matches page"
+  }, {
+    "name" : "package",
+    "value" : "Sangam.com Matches Page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "a49c3e27eca3a51e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1556279732994,
+        "stop" : 1556279734574,
+        "duration" : 1580
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "399fe0aec0dffffd.json",
+  "parameterValues" : [ "chrome" ]
+}

@@ -1,0 +1,65 @@
+{
+  "uid" : "39ca6c04fbc6e357",
+  "name" : "should goto /preview-profile when editBiodata link is clicked",
+  "fullName" : "Sangam.com LoginPage.should goto /preview-profile when editBiodata link is clicked",
+  "historyId" : "ded063d372315caf853459f335b9f538",
+  "time" : {
+    "start" : 1556282807225,
+    "stop" : 1556282808852,
+    "duration" : 1627
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Sangam.com LoginPage"
+  }, {
+    "name" : "testClass",
+    "value" : "Sangam.com LoginPage"
+  }, {
+    "name" : "testMethod",
+    "value" : "should goto /preview-profile when editBiodata link is clicked"
+  }, {
+    "name" : "package",
+    "value" : "Sangam.com LoginPage"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "822f3ac72bafe2b8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1556279736045,
+        "stop" : 1556279737176,
+        "duration" : 1131
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "39ca6c04fbc6e357.json",
+  "parameterValues" : [ "chrome" ]
+}

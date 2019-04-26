@@ -10,4 +10,4 @@ exports.URLS = {
   HOME: `${BASE_URL}/`,
 };
 
-exports.resolvePath = path => join(process.cwd(), path);
+exports.resolvePath = (...path) => join(process.cwd(), ...path);
