@@ -7,6 +7,7 @@ exports.URLS = {
   MATCHES: `${BASE_URL}/profiles/unviewed-matches`,
   INTERACTION: `${BASE_URL}/interaction`,
   PREVIEW_PROFILE: `${BASE_URL}/preview-profile`,
+  HOME: `${BASE_URL}/`,
 };
 
 exports.resolvePath = path => join(process.cwd(), path);

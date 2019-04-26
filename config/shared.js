@@ -1,4 +1,4 @@
-const { resolvePath } = require('../helpers')
+const { resolvePath } = require('../helpers');
 
 const config = {
   //
@@ -126,6 +126,8 @@ const config = {
     timeout: 60000,
     compilers: ['js:@babel/register'],
   },
+
+  coloredLogs: true,
   //
   // =====
   // Hooks

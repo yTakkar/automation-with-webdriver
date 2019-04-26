@@ -13,6 +13,7 @@ exports.config = {
       platformVersion: '9',
       maxInstances: 1,
       browserName: 'chrome',
+      orientation: 'PORTRAIT',
     },
   ],
 };
