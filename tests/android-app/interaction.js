@@ -1,3 +1,4 @@
+// const autoLogin = require('../../helpers/autoLogin.js');
 const { URLS } = require('../../helpers');
 
 describe('Interaction Page', async () => {
