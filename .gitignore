@@ -1,5 +1,5 @@
 node_modules/
 .vscode
-./chromedriver
-./geckodriver
+chromedriver
+geckodriver
 *.zip
