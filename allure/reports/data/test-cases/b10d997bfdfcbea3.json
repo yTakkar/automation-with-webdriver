@@ -1,0 +1,87 @@
+{
+  "uid" : "b10d997bfdfcbea3",
+  "name" : "should edit Family Details",
+  "fullName" : "Edit Profile Page.should edit Family Details",
+  "historyId" : "74f07d0fc7f010f16dfe6d7e6f7400a3",
+  "time" : {
+    "start" : 1556385339503,
+    "stop" : 1556385344355,
+    "duration" : 4852
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "An unknown server-side error occurred while processing the command. Original error: chrome not reachable\n                  (Session info: chrome=69.0.3497.100)\n                  (Driver info: chromedriver=2.44.609551 (5d576e9a44fe4c5b6a07e568f1ebc753f1214634),platform=Linux 4.10.0-28-generic x86_64)",
+  "statusTrace" : "unknown error: An unknown server-side error occurred while processing the command. Original error: chrome not reachable\n                  (Session info: chrome=69.0.3497.100)\n                  (Driver info: chromedriver=2.44.609551 (5d576e9a44fe4c5b6a07e568f1ebc753f1214634),platform=Linux 4.10.0-28-generic x86_64)\n                    at getErrorFromResponseBody (/home/faiyazs/projects/webdriver/node_modules/webdriver/build/utils.js:348:10)\n                    at Request._callback (/home/faiyazs/projects/webdriver/node_modules/webdriver/build/request.js:121:64)\n                    at Request.self.callback (/home/faiyazs/projects/webdriver/node_modules/request/request.js:185:22)\n                    at Request.<anonymous> (/home/faiyazs/projects/webdriver/node_modules/request/request.js:1161:10)\n                    at IncomingMessage.<anonymous> (/home/faiyazs/projects/webdriver/node_modules/request/request.js:1083:12)\n                Error: \n                    at Context.navigateTo (/home/faiyazs/projects/webdriver/tests/android-browser/editProfile.js:10:19)",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Edit Profile Page"
+  }, {
+    "name" : "testClass",
+    "value" : "Edit Profile Page"
+  }, {
+    "name" : "testMethod",
+    "value" : "should edit Family Details"
+  }, {
+    "name" : "package",
+    "value" : "Edit Profile Page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "chrome-9"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "2216c4ab4d5c8474",
+      "status" : "passed",
+      "time" : {
+        "start" : 1556290414236,
+        "stop" : 1556290417766,
+        "duration" : 3530
+      }
+    }, {
+      "uid" : "dadc35179fa49ba9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1556290066600,
+        "stop" : 1556290071766,
+        "duration" : 5166
+      }
+    }, {
+      "uid" : "2d479e26f848b1ad",
+      "status" : "passed",
+      "time" : {
+        "start" : 1556282891171,
+        "stop" : 1556282895314,
+        "duration" : 4143
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "b10d997bfdfcbea3.json",
+  "parameterValues" : [ "chrome-9" ]
+}

@@ -1,6 +1,17 @@
 {
   "total" : 4,
   "items" : [ {
+    "uid" : "61304d1478b05469eab59aa47d32c971",
+    "name" : "Edit Profile Page",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 2,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 2
+    }
+  }, {
     "uid" : "128d623d5caf1433d5a4a1c506f6c174",
     "name" : "Sangam.com LoginPage",
     "statistic" : {
@@ -14,17 +25,6 @@
   }, {
     "uid" : "a79882ba1b5842ecc32675f76f716da4",
     "name" : "Sangam.com Matches Page",
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 2,
-      "unknown" : 0,
-      "total" : 2
-    }
-  }, {
-    "uid" : "61304d1478b05469eab59aa47d32c971",
-    "name" : "Edit Profile Page",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,

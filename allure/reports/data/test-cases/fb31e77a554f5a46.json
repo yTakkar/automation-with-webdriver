@@ -1,0 +1,55 @@
+{
+  "uid" : "fb31e77a554f5a46",
+  "name" : "should login",
+  "fullName" : "Sangam.com Matches Page.should login",
+  "historyId" : "e0451f51eb39affa714fe944f3ab06b7",
+  "time" : {
+    "start" : 1556279719710,
+    "stop" : 1556279732990,
+    "duration" : 13280
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "Sangam.com Matches Page"
+  }, {
+    "name" : "testClass",
+    "value" : "Sangam.com Matches Page"
+  }, {
+    "name" : "testMethod",
+    "value" : "should login"
+  }, {
+    "name" : "package",
+    "value" : "Sangam.com Matches Page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "fb31e77a554f5a46.json",
+  "parameterValues" : [ "chrome" ]
+}

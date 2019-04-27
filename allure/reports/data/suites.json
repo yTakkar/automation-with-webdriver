@@ -1,120 +1,28 @@
 {
   "uid" : "98d3104e051c652961429bf95fa0b5d6",
   "children" : [ {
-    "name" : "Sangam.com LoginPage",
-    "children" : [ {
-      "name" : "should login",
-      "uid" : "7ff1ac824ffa25ee",
-      "parentUid" : "128d623d5caf1433d5a4a1c506f6c174",
-      "status" : "passed",
-      "time" : {
-        "start" : 1556282793594,
-        "stop" : 1556282802957,
-        "duration" : 9363
-      },
-      "flaky" : false,
-      "parameters" : [ "chrome" ]
-    }, {
-      "name" : "should goto home page",
-      "uid" : "2a42866aa4d21d09",
-      "parentUid" : "128d623d5caf1433d5a4a1c506f6c174",
-      "status" : "passed",
-      "time" : {
-        "start" : 1556282802965,
-        "stop" : 1556282805792,
-        "duration" : 2827
-      },
-      "flaky" : false,
-      "parameters" : [ "chrome" ]
-    }, {
-      "name" : "should go to /edit-pp when editPP link is clicked",
-      "uid" : "edea5095f0ae0b37",
-      "parentUid" : "128d623d5caf1433d5a4a1c506f6c174",
-      "status" : "passed",
-      "time" : {
-        "start" : 1556282805793,
-        "stop" : 1556282807224,
-        "duration" : 1431
-      },
-      "flaky" : false,
-      "parameters" : [ "chrome" ]
-    }, {
-      "name" : "should goto /preview-profile when editBiodata link is clicked",
-      "uid" : "39ca6c04fbc6e357",
-      "parentUid" : "128d623d5caf1433d5a4a1c506f6c174",
-      "status" : "passed",
-      "time" : {
-        "start" : 1556282807225,
-        "stop" : 1556282808852,
-        "duration" : 1627
-      },
-      "flaky" : false,
-      "parameters" : [ "chrome" ]
-    }, {
-      "name" : "should goto /privacy-settings when profile img is clicked",
-      "uid" : "5a4365764dd94ee2",
-      "parentUid" : "128d623d5caf1433d5a4a1c506f6c174",
-      "status" : "passed",
-      "time" : {
-        "start" : 1556282808853,
-        "stop" : 1556282809610,
-        "duration" : 757
-      },
-      "flaky" : false,
-      "parameters" : [ "chrome" ]
-    } ],
-    "uid" : "128d623d5caf1433d5a4a1c506f6c174"
-  }, {
-    "name" : "Sangam.com Matches Page",
-    "children" : [ {
-      "name" : "should login",
-      "uid" : "8368dcfd260272f8",
-      "parentUid" : "a79882ba1b5842ecc32675f76f716da4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1556282793755,
-        "stop" : 1556282803041,
-        "duration" : 9286
-      },
-      "flaky" : false,
-      "parameters" : [ "chrome" ]
-    }, {
-      "name" : "should open matches page",
-      "uid" : "399fe0aec0dffffd",
-      "parentUid" : "a79882ba1b5842ecc32675f76f716da4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1556282803042,
-        "stop" : 1556282804383,
-        "duration" : 1341
-      },
-      "flaky" : false,
-      "parameters" : [ "chrome" ]
-    } ],
-    "uid" : "a79882ba1b5842ecc32675f76f716da4"
-  }, {
     "name" : "Edit Profile Page",
     "children" : [ {
       "name" : "should login",
-      "uid" : "46067a924288e8e9",
+      "uid" : "e11acd4c2b272cbb",
       "parentUid" : "61304d1478b05469eab59aa47d32c971",
-      "status" : "passed",
+      "status" : "broken",
       "time" : {
-        "start" : 1556282882784,
-        "stop" : 1556282891170,
-        "duration" : 8386
+        "start" : 1556385279448,
+        "stop" : 1556385339502,
+        "duration" : 60054
       },
       "flaky" : false,
       "parameters" : [ "chrome-9" ]
     }, {
       "name" : "should edit Family Details",
-      "uid" : "cc9d71f354e8f7d3",
+      "uid" : "b10d997bfdfcbea3",
       "parentUid" : "61304d1478b05469eab59aa47d32c971",
-      "status" : "passed",
+      "status" : "broken",
       "time" : {
-        "start" : 1556282891171,
-        "stop" : 1556282895314,
-        "duration" : 4143
+        "start" : 1556385339503,
+        "stop" : 1556385344355,
+        "duration" : 4852
       },
       "flaky" : false,
       "parameters" : [ "chrome-9" ]
@@ -124,18 +32,110 @@
     "name" : "Interaction Page",
     "children" : [ {
       "name" : "should goto /home page",
-      "uid" : "7c15a96b721865cc",
+      "uid" : "70f82387ca43b713",
       "parentUid" : "2cc02df606b7225fd5544b0aff616959",
       "status" : "passed",
       "time" : {
-        "start" : 1556283080517,
-        "stop" : 1556283081015,
-        "duration" : 498
+        "start" : 1556385597392,
+        "stop" : 1556385598287,
+        "duration" : 895
       },
       "flaky" : false,
       "parameters" : [ "Pixel 2 API 28-9" ]
     } ],
     "uid" : "2cc02df606b7225fd5544b0aff616959"
+  }, {
+    "name" : "Sangam.com LoginPage",
+    "children" : [ {
+      "name" : "should login",
+      "uid" : "37e9640922b793b2",
+      "parentUid" : "128d623d5caf1433d5a4a1c506f6c174",
+      "status" : "passed",
+      "time" : {
+        "start" : 1556385755970,
+        "stop" : 1556385778173,
+        "duration" : 22203
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should goto home page",
+      "uid" : "ad252fd39be3da72",
+      "parentUid" : "128d623d5caf1433d5a4a1c506f6c174",
+      "status" : "passed",
+      "time" : {
+        "start" : 1556385778175,
+        "stop" : 1556385780290,
+        "duration" : 2115
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should go to /edit-pp when editPP link is clicked",
+      "uid" : "d194d8df33c6a097",
+      "parentUid" : "128d623d5caf1433d5a4a1c506f6c174",
+      "status" : "passed",
+      "time" : {
+        "start" : 1556385780291,
+        "stop" : 1556385781759,
+        "duration" : 1468
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should goto /preview-profile when editBiodata link is clicked",
+      "uid" : "84afd7d02282d34d",
+      "parentUid" : "128d623d5caf1433d5a4a1c506f6c174",
+      "status" : "passed",
+      "time" : {
+        "start" : 1556385781759,
+        "stop" : 1556385782890,
+        "duration" : 1131
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should goto /privacy-settings when profile img is clicked",
+      "uid" : "7607b2ccad6d986d",
+      "parentUid" : "128d623d5caf1433d5a4a1c506f6c174",
+      "status" : "passed",
+      "time" : {
+        "start" : 1556385782891,
+        "stop" : 1556385783528,
+        "duration" : 637
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    } ],
+    "uid" : "128d623d5caf1433d5a4a1c506f6c174"
+  }, {
+    "name" : "Sangam.com Matches Page",
+    "children" : [ {
+      "name" : "should login",
+      "uid" : "bacd8e97f336950b",
+      "parentUid" : "a79882ba1b5842ecc32675f76f716da4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1556385756255,
+        "stop" : 1556385780777,
+        "duration" : 24522
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should open matches page",
+      "uid" : "740c91fc23f842f0",
+      "parentUid" : "a79882ba1b5842ecc32675f76f716da4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1556385780778,
+        "stop" : 1556385782391,
+        "duration" : 1613
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    } ],
+    "uid" : "a79882ba1b5842ecc32675f76f716da4"
   } ],
   "name" : "suites"
 }

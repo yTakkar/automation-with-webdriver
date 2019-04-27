@@ -1,0 +1,55 @@
+{
+  "uid" : "9913638591f7a3c6",
+  "name" : "should login",
+  "fullName" : "Edit Profile Page.should login",
+  "historyId" : "907e62a67c8b770d662e35d99d09c36f",
+  "time" : {
+    "start" : 1556290058125,
+    "stop" : 1556290066599,
+    "duration" : 8474
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Edit Profile Page"
+  }, {
+    "name" : "testClass",
+    "value" : "Edit Profile Page"
+  }, {
+    "name" : "testMethod",
+    "value" : "should login"
+  }, {
+    "name" : "package",
+    "value" : "Edit Profile Page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "chrome-9"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9913638591f7a3c6.json",
+  "parameterValues" : [ "chrome-9" ]
+}

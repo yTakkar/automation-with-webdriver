@@ -1,0 +1,89 @@
+{
+  "uid" : "7607b2ccad6d986d",
+  "name" : "should goto /privacy-settings when profile img is clicked",
+  "fullName" : "Sangam.com LoginPage.should goto /privacy-settings when profile img is clicked",
+  "historyId" : "15f3a37caa91e59d925b73c8c3f5886e",
+  "time" : {
+    "start" : 1556385782891,
+    "stop" : 1556385783528,
+    "duration" : 637
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Sangam.com LoginPage"
+  }, {
+    "name" : "testClass",
+    "value" : "Sangam.com LoginPage"
+  }, {
+    "name" : "testMethod",
+    "value" : "should goto /privacy-settings when profile img is clicked"
+  }, {
+    "name" : "package",
+    "value" : "Sangam.com LoginPage"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "98aa3106ce75ec01",
+      "status" : "passed",
+      "time" : {
+        "start" : 1556385750482,
+        "stop" : 1556385751151,
+        "duration" : 669
+      }
+    }, {
+      "uid" : "e6aeae6b5f1b40ad",
+      "status" : "passed",
+      "time" : {
+        "start" : 1556290043115,
+        "stop" : 1556290043687,
+        "duration" : 572
+      }
+    }, {
+      "uid" : "9cf8a995127756f0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1556282808853,
+        "stop" : 1556282809610,
+        "duration" : 757
+      }
+    }, {
+      "uid" : "3a5e60964284c00c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1556279737176,
+        "stop" : 1556279737774,
+        "duration" : 598
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7607b2ccad6d986d.json",
+  "parameterValues" : [ "chrome" ]
+}

@@ -1,0 +1,89 @@
+{
+  "uid" : "bacd8e97f336950b",
+  "name" : "should login",
+  "fullName" : "Sangam.com Matches Page.should login",
+  "historyId" : "e0451f51eb39affa714fe944f3ab06b7",
+  "time" : {
+    "start" : 1556385756255,
+    "stop" : 1556385780777,
+    "duration" : 24522
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "Sangam.com Matches Page"
+  }, {
+    "name" : "testClass",
+    "value" : "Sangam.com Matches Page"
+  }, {
+    "name" : "testMethod",
+    "value" : "should login"
+  }, {
+    "name" : "package",
+    "value" : "Sangam.com Matches Page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "94f07a7b766d2ae9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1556385731278,
+        "stop" : 1556385745909,
+        "duration" : 14631
+      }
+    }, {
+      "uid" : "72b9f4a59ebe1516",
+      "status" : "passed",
+      "time" : {
+        "start" : 1556290030864,
+        "stop" : 1556290039727,
+        "duration" : 8863
+      }
+    }, {
+      "uid" : "ab03bf82cb6c00ba",
+      "status" : "passed",
+      "time" : {
+        "start" : 1556282793755,
+        "stop" : 1556282803041,
+        "duration" : 9286
+      }
+    }, {
+      "uid" : "fb31e77a554f5a46",
+      "status" : "passed",
+      "time" : {
+        "start" : 1556279719710,
+        "stop" : 1556279732990,
+        "duration" : 13280
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "bacd8e97f336950b.json",
+  "parameterValues" : [ "chrome" ]
+}

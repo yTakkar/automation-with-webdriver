@@ -1,0 +1,89 @@
+{
+  "uid" : "ad252fd39be3da72",
+  "name" : "should goto home page",
+  "fullName" : "Sangam.com LoginPage.should goto home page",
+  "historyId" : "baa61a07a1ebd67c967dbb954229edf4",
+  "time" : {
+    "start" : 1556385778175,
+    "stop" : 1556385780290,
+    "duration" : 2115
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Sangam.com LoginPage"
+  }, {
+    "name" : "testClass",
+    "value" : "Sangam.com LoginPage"
+  }, {
+    "name" : "testMethod",
+    "value" : "should goto home page"
+  }, {
+    "name" : "package",
+    "value" : "Sangam.com LoginPage"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "f39e442cae47d515",
+      "status" : "passed",
+      "time" : {
+        "start" : 1556385745762,
+        "stop" : 1556385747870,
+        "duration" : 2108
+      }
+    }, {
+      "uid" : "d28db327d7b1914b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1556290039995,
+        "stop" : 1556290040562,
+        "duration" : 567
+      }
+    }, {
+      "uid" : "f0e28ee889dcaf4d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1556282802965,
+        "stop" : 1556282805792,
+        "duration" : 2827
+      }
+    }, {
+      "uid" : "b310bb5cf9b2a065",
+      "status" : "passed",
+      "time" : {
+        "start" : 1556279733558,
+        "stop" : 1556279734658,
+        "duration" : 1100
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ad252fd39be3da72.json",
+  "parameterValues" : [ "chrome" ]
+}

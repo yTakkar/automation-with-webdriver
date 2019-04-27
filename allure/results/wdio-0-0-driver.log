@@ -1,0 +1,3 @@
+{"level":"SEVERE","message":"Unable to receive message from renderer\n","timestamp":1556385344199}
+{"level":"WARNING","message":"Unable to evaluate script: disconnected: not connected to DevTools\n","timestamp":1556385345109}
+{"level":"WARNING","message":"Unable to evaluate script: disconnected: not connected to DevTools\n","timestamp":1556385345120}

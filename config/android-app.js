@@ -13,7 +13,7 @@ exports.config = {
       platformName: 'Android',
       platformVersion: '9',
       maxInstances: 1,
-      app: resolvePath('apps/sangam.apk'),
+      app: resolvePath('apps/app.apk'),
       orientation: 'PORTRAIT',
       noReset: true,
     },

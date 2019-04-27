@@ -1,4 +1,4 @@
-2019-04-26T14:48:40.511Z ERROR webdriver: Request failed due to unknown error: An unknown server-side error occurred while processing the command. Original error: Appium server must have relaxed security flag set in order to be able to get server logs
+2019-04-27T17:29:50.983Z ERROR webdriver: Request failed due to unknown error: An unknown server-side error occurred while processing the command. Original error: Appium server must have relaxed security flag set in order to be able to get server logs
     at getErrorFromResponseBody (/home/faiyazs/projects/webdriver/node_modules/webdriver/build/utils.js:348:10)
     at Request._callback (/home/faiyazs/projects/webdriver/node_modules/webdriver/build/request.js:121:64)
     at Request.self.callback (/home/faiyazs/projects/webdriver/node_modules/request/request.js:185:22)

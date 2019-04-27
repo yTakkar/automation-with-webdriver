@@ -1,0 +1,59 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1556385279427' stop='1556385344357'>
+    <name>Edit Profile Page</name>
+    <title>Edit Profile Page</title>
+    <test-cases>
+        <test-case start='1556385279448' status='broken' stop='1556385339502'>
+            <name>should login</name>
+            <title>should login</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='chrome-9'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Timeout of 60000ms exceeded. For async tests and hooks, ensure "done()" is called; if returning a Promise, ensure it resolves. (/home/faiyazs/projects/webdriver/tests/android-browser/editProfile.js)</message>
+                <stack-trace>Error: Timeout of 60000ms exceeded. For async tests and hooks, ensure "done()" is called; if returning a Promise, ensure it resolves. (/home/faiyazs/projects/webdriver/tests/android-browser/editProfile.js)
+                    at Test.Runnable._timeoutError (/home/faiyazs/projects/webdriver/node_modules/mocha/lib/runnable.js:455:10)
+                    at Timeout.&lt;anonymous> (/home/faiyazs/projects/webdriver/node_modules/mocha/lib/runnable.js:266:24)
+                    at ontimeout (timers.js:498:11)
+                    at tryOnTimeout (timers.js:323:5)
+                    at Timer.listOnTimeout (timers.js:290:5)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1556385339503' status='broken' stop='1556385344355'>
+            <name>should edit Family Details</name>
+            <title>should edit Family Details</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='chrome-9'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>An unknown server-side error occurred while processing the command. Original error: chrome not reachable
+                  (Session info: chrome=69.0.3497.100)
+                  (Driver info: chromedriver=2.44.609551 (5d576e9a44fe4c5b6a07e568f1ebc753f1214634),platform=Linux 4.10.0-28-generic x86_64)</message>
+                <stack-trace>unknown error: An unknown server-side error occurred while processing the command. Original error: chrome not reachable
+                  (Session info: chrome=69.0.3497.100)
+                  (Driver info: chromedriver=2.44.609551 (5d576e9a44fe4c5b6a07e568f1ebc753f1214634),platform=Linux 4.10.0-28-generic x86_64)
+                    at getErrorFromResponseBody (/home/faiyazs/projects/webdriver/node_modules/webdriver/build/utils.js:348:10)
+                    at Request._callback (/home/faiyazs/projects/webdriver/node_modules/webdriver/build/request.js:121:64)
+                    at Request.self.callback (/home/faiyazs/projects/webdriver/node_modules/request/request.js:185:22)
+                    at Request.&lt;anonymous> (/home/faiyazs/projects/webdriver/node_modules/request/request.js:1161:10)
+                    at IncomingMessage.&lt;anonymous> (/home/faiyazs/projects/webdriver/node_modules/request/request.js:1083:12)
+                Error: 
+                    at Context.navigateTo (/home/faiyazs/projects/webdriver/tests/android-browser/editProfile.js:10:19)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

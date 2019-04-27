@@ -1,0 +1,55 @@
+{
+  "uid" : "e6aeae6b5f1b40ad",
+  "name" : "should goto /privacy-settings when profile img is clicked",
+  "fullName" : "Sangam.com LoginPage.should goto /privacy-settings when profile img is clicked",
+  "historyId" : "15f3a37caa91e59d925b73c8c3f5886e",
+  "time" : {
+    "start" : 1556290043115,
+    "stop" : 1556290043687,
+    "duration" : 572
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Sangam.com LoginPage"
+  }, {
+    "name" : "testClass",
+    "value" : "Sangam.com LoginPage"
+  }, {
+    "name" : "testMethod",
+    "value" : "should goto /privacy-settings when profile img is clicked"
+  }, {
+    "name" : "package",
+    "value" : "Sangam.com LoginPage"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e6aeae6b5f1b40ad.json",
+  "parameterValues" : [ "chrome" ]
+}

@@ -1,100 +1,100 @@
 [ {
-  "uid" : "edea5095f0ae0b37",
-  "name" : "should go to /edit-pp when editPP link is clicked",
-  "time" : {
-    "start" : 1556282805793,
-    "stop" : 1556282807224,
-    "duration" : 1431
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "7c15a96b721865cc",
-  "name" : "should goto /home page",
-  "time" : {
-    "start" : 1556283080517,
-    "stop" : 1556283081015,
-    "duration" : 498
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "46067a924288e8e9",
-  "name" : "should login",
-  "time" : {
-    "start" : 1556282882784,
-    "stop" : 1556282891170,
-    "duration" : 8386
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "7ff1ac824ffa25ee",
-  "name" : "should login",
-  "time" : {
-    "start" : 1556282793594,
-    "stop" : 1556282802957,
-    "duration" : 9363
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "2a42866aa4d21d09",
-  "name" : "should goto home page",
-  "time" : {
-    "start" : 1556282802965,
-    "stop" : 1556282805792,
-    "duration" : 2827
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "5a4365764dd94ee2",
-  "name" : "should goto /privacy-settings when profile img is clicked",
-  "time" : {
-    "start" : 1556282808853,
-    "stop" : 1556282809610,
-    "duration" : 757
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "8368dcfd260272f8",
-  "name" : "should login",
-  "time" : {
-    "start" : 1556282793755,
-    "stop" : 1556282803041,
-    "duration" : 9286
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "39ca6c04fbc6e357",
+  "uid" : "84afd7d02282d34d",
   "name" : "should goto /preview-profile when editBiodata link is clicked",
   "time" : {
-    "start" : 1556282807225,
-    "stop" : 1556282808852,
-    "duration" : 1627
+    "start" : 1556385781759,
+    "stop" : 1556385782890,
+    "duration" : 1131
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "cc9d71f354e8f7d3",
+  "uid" : "e11acd4c2b272cbb",
+  "name" : "should login",
+  "time" : {
+    "start" : 1556385279448,
+    "stop" : 1556385339502,
+    "duration" : 60054
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "d194d8df33c6a097",
+  "name" : "should go to /edit-pp when editPP link is clicked",
+  "time" : {
+    "start" : 1556385780291,
+    "stop" : 1556385781759,
+    "duration" : 1468
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "37e9640922b793b2",
+  "name" : "should login",
+  "time" : {
+    "start" : 1556385755970,
+    "stop" : 1556385778173,
+    "duration" : 22203
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b10d997bfdfcbea3",
   "name" : "should edit Family Details",
   "time" : {
-    "start" : 1556282891171,
-    "stop" : 1556282895314,
-    "duration" : 4143
+    "start" : 1556385339503,
+    "stop" : 1556385344355,
+    "duration" : 4852
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "70f82387ca43b713",
+  "name" : "should goto /home page",
+  "time" : {
+    "start" : 1556385597392,
+    "stop" : 1556385598287,
+    "duration" : 895
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "399fe0aec0dffffd",
+  "uid" : "ad252fd39be3da72",
+  "name" : "should goto home page",
+  "time" : {
+    "start" : 1556385778175,
+    "stop" : 1556385780290,
+    "duration" : 2115
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bacd8e97f336950b",
+  "name" : "should login",
+  "time" : {
+    "start" : 1556385756255,
+    "stop" : 1556385780777,
+    "duration" : 24522
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7607b2ccad6d986d",
+  "name" : "should goto /privacy-settings when profile img is clicked",
+  "time" : {
+    "start" : 1556385782891,
+    "stop" : 1556385783528,
+    "duration" : 637
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "740c91fc23f842f0",
   "name" : "should open matches page",
   "time" : {
-    "start" : 1556282803042,
-    "stop" : 1556282804383,
-    "duration" : 1341
+    "start" : 1556385780778,
+    "stop" : 1556385782391,
+    "duration" : 1613
   },
   "status" : "passed",
   "severity" : "normal"
