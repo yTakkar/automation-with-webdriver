@@ -2,7 +2,7 @@
 In this section, we'll be focusing on how to run automated tests powered by [webdriver](https://webdriver.io/) on desktop browsers.
 
 ### Screenshot
-![alt text](https://i.ibb.co/Q7WB8BP/Screenshot-from-2019-04-27-22-52-57.png)
+![alt text](https://i.ibb.co/V3tGsjd/Screenshot-from-2019-04-27-23-04-27.png)
 
 ### Configurations
 WebDriver requires a driver to able to run tests on the desktop browser. It should be running on a specific port as configured in [`config/shared.js`](./config/shared.js) (Don't worry it's already configured). It could be either [chromedriver](http://chromedriver.chromium.org/) or [geckodriver](https://github.com/mozilla/geckodriver). [Here](https://github.com/christian-bromann/awesome-selenium#driver) is a list of awesome drivers available. Since this is just a POC project, we're only going to use 2 drivers (chromedriver & geckodriver).

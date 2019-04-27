@@ -2,7 +2,7 @@
 In this section, we'll have a look on how to run automated tests on device browsers.
 
 ### Screenshot
-![alt text](https://i.ibb.co/KGT4Skp/Screenshot-from-2019-04-27-22-44-46.png)
+![alt text](https://i.ibb.co/SVnxL1Y/Screenshot-from-2019-04-27-23-07-11.png)
 
 ### Requirements
 To run tests on mobile browsers, WebDriver requires [appium](https://webdriver.io/docs/appium-service.html) service and bunch of other stuff. To be very honest, list is pretty long and daunting.
