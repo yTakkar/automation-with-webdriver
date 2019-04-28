@@ -9,6 +9,7 @@ exports.config = {
     {
       maxInstances: 5,
       browserName: 'chrome',
+      args: ['disable-infobars'],
     },
   ],
 };
