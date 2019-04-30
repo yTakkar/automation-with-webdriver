@@ -11,6 +11,8 @@
     "test:browser": "yarn test config/browser.js",
     "test:android-browser": "yarn test config/android-browser.js",
     "test:android-app": "yarn test config/android-app.js",
+    "test:ios-app": "yarn test config/ios-app.js",
+    "test:ios-browser": "yarn test config/ios-browser.js",
     "report:gen": "allure generate ./allure/results -o ./allure/reports --clean",
     "report:open": "allure open ./allure/reports -p 9500"
   },

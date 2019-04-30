@@ -2,5 +2,6 @@ node_modules
 .vscode
 chromedriver
 geckodriver
-*.zip
+bugreport*.zip
 allure
+.DS_Store
