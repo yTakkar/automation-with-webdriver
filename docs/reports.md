@@ -12,7 +12,7 @@ brew tap qameta/allure
 brew install allure
 ```
 
-Desbian
+Debian
 ```bash
 sudo apt-add-repository ppa:yandex-qatools/allure-framework
 sudo apt-get update
