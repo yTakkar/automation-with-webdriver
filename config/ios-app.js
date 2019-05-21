@@ -12,7 +12,7 @@ exports.config = {
       platformName: 'iOS',
       platformVersion: '12.2',
       maxInstances: 1,
-      app: resolvePath('apps/sangam-app.zip'),
+      app: resolvePath('apps/app.zip'),
       orientation: 'PORTRAIT',
       noReset: true,
       newCommandTimeout: 240,
